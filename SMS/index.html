@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+    	<head>
+    		<meta charset="UTF-8">
+    		<title>SMS</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    	  <link rel="stylesheet" href="css/main.css" type="text/css">
+    	</head>
+    	<body>
+      <div class="all">
+      	<div class="top">
+      		<h1> SMS Gateway </h1>
+        </div>
+        <div class="main">
+          <b> Phone number </b>
+          <br>
+          <input maxlength="10" class="text" type="number" id="tel" name="textBox">
+          <script src="js/test.js"></script>
+          <br>
+          <br>
+          <b> Message (Max 160) </b>
+          <br>
+          <textarea class="text"  id="msg" maxlength="160"></textarea>
+          <script src="js/test.js"></script>
+          <br>
+          <br>
+          <input class="btn" type="button" value="Send Message" onclick="print()">
+          <br>
+        </div>
+      </div>
+    	</body>
+</html>

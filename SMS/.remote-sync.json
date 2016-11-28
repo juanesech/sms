@@ -1,0 +1,16 @@
+{
+  "uploadOnSave": false,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "54.213.108.16",
+  "port": "22",
+  "target": "/var/www/SMS",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "ubuntu",
+  "keyfile": "/Users/juanes/Downloads/smsgateway.pem",
+  "watch": [],
+  "transport": "scp"
+}
